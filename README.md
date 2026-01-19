@@ -72,7 +72,7 @@ Adjust settings using these commands:
 
 ## Technical Details
 
-- **Namespace:** `fshb`
+- **Namespace:** `ffl`
 - **Pack format:** 48 (Minecraft 1.21.1)
 - **Processing:** Schedule-based tick system for server performance optimisation
 
