@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:dolphin",
+    "type_specific": {
+      "type": "ageable",
+      "age": {
+        "min": 0
+      }
+    }
+  }
+}
+
