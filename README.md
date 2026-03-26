@@ -26,7 +26,7 @@ In vanilla Minecraft, fish and squid cannot be bred like other animals. This dat
 - **Creative mode safe:** Tropical fish not consumed in creative mode
 - **Breeding cooldown:** 5 minutes (configurable)
 
-### Squid Breeding (optional, off by default)
+### Squid Breeding (optional, off by default) [26.1+]
 - **Drop-based feeding:** Drop raw cod near squids, or glow lichen near glow squids
 - **Love mode mechanic:** Fed squids enter love mode for 60 seconds with heart particles
 - **Auto-breeding:** Two love-mode squids of the same type within 3 blocks breed automatically
