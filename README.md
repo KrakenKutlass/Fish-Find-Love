@@ -1,6 +1,6 @@
 # Fish Breeding Datapack
 
-A Minecraft Java Edition 1.21.1 datapack that adds fish breeding mechanics and dolphin breeding to the game.
+A Minecraft Java Edition datapack that adds fish breeding mechanics and dolphin breeding to the game.
 
 ## Why This Datapack?
 
