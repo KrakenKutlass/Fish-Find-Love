@@ -10,3 +10,7 @@ scoreboard objectives add ffl.random dummy
 # Dolphin Breeding scoreboards
 scoreboard objectives add ffl.dolphin_cd dummy
 scoreboard objectives add ffl.love_timer dummy
+
+# Squid Breeding scoreboards
+scoreboard objectives add ffl.squid_cd dummy
+scoreboard objectives add ffl.squid_timer dummy
