@@ -34,4 +34,13 @@ execute if score #dolphins_breed ffl.config matches 0 run tellraw @s [{"text":"D
 execute if score #dolphins_breed ffl.config matches 1 store result storage ffl:display dolphin_breed_cooldown int 1 run scoreboard players get #dolphin_breed_cooldown ffl.config
 execute if score #dolphins_breed ffl.config matches 1 run tellraw @s [{"text":"Dolphin Breed Cooldown: ","color":"white"},{"score":{"name":"#dolphin_breed_cooldown","objective":"ffl.config"},"color":"yellow"},{"text":" ticks","color":"gray"}]
 
+tellraw @s {"text":"","color":"white"}
+
+# Display squid breeding status (clickable to toggle - OP only)
+execute if score #squids_breed ffl.config matches 1 run tellraw @s [{"text":"Squid Breeding: ","color":"white"},{"text":"[ENABLED]","color":"green","bold":true,"clickEvent":{"action":"run_command","value":"/function ffl:config/toggle_squid_and_show"},"hoverEvent":{"action":"show_text","value":"Click to toggle"}}]
+execute if score #squids_breed ffl.config matches 0 run tellraw @s [{"text":"Squid Breeding: ","color":"white"},{"text":"[DISABLED]","color":"red","bold":true,"clickEvent":{"action":"run_command","value":"/function ffl:config/toggle_squid_and_show"},"hoverEvent":{"action":"show_text","value":"Click to toggle"}}]
+
+# Display squid breeding cooldown (if enabled)
+execute if score #squids_breed ffl.config matches 1 run tellraw @s [{"text":"Squid Breed Cooldown: ","color":"white"},{"score":{"name":"#squid_breed_cooldown","objective":"ffl.config"},"color":"yellow"},{"text":" ticks","color":"gray"}]
+
 tellraw @s {"text":"===================================","color":"gold"}

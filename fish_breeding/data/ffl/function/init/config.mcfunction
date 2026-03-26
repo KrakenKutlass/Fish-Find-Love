@@ -9,6 +9,8 @@ execute unless score #config_loaded ffl.config matches 1 run scoreboard players 
 execute unless score #config_loaded ffl.config matches 1 run scoreboard players set #fish_breed ffl.config 1
 execute unless score #config_loaded ffl.config matches 1 run scoreboard players set #dolphins_breed ffl.config 0
 execute unless score #config_loaded ffl.config matches 1 run scoreboard players set #dolphin_breed_cooldown ffl.config 6000
+execute unless score #config_loaded ffl.config matches 1 run scoreboard players set #squids_breed ffl.config 0
+execute unless score #config_loaded ffl.config matches 1 run scoreboard players set #squid_breed_cooldown ffl.config 6000
 
 # Mark config as loaded so it won't reset on future reloads
 scoreboard players set #config_loaded ffl.config 1

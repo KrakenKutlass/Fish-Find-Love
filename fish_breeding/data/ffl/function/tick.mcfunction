@@ -14,3 +14,10 @@ execute if score #fish_breed ffl.config matches 1 if entity @e[type=item,limit=1
 execute if score #dolphins_breed ffl.config matches 1 run function ffl:dolphin/init_dolphins
 execute if score #dolphins_breed ffl.config matches 1 run function ffl:dolphin/process_cooldowns
 execute if score #dolphins_breed ffl.config matches 1 if entity @e[type=minecraft:dolphin,tag=ffl.in_love,limit=1] run function ffl:dolphin/check_love_pairs
+
+# Squid Breeding System (only if enabled)
+execute if score #squids_breed ffl.config matches 1 run function ffl:squid/init_squids
+execute if score #squids_breed ffl.config matches 1 run function ffl:squid/process_cooldowns
+execute if score #squids_breed ffl.config matches 1 if entity @e[tag=ffl.squid_love,limit=1] run function ffl:squid/check_love_pairs
+execute if score #squids_breed ffl.config matches 1 if entity @e[type=item,limit=1,nbt={Item:{id:"minecraft:cod"}}] run function ffl:squid/process_squid_food
+execute if score #squids_breed ffl.config matches 1 if entity @e[type=item,limit=1,nbt={Item:{id:"minecraft:glow_lichen"}}] run function ffl:squid/process_squid_food
