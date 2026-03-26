@@ -1,11 +1,7 @@
 {
   "pack": {
-    "pack_format": 101,
-    "pack_format_minor": 1,
-    "supported_formats": {
-      "min_inclusive": 48,
-      "max_inclusive": 101
-    },
-    "description": "Fish Find Love - Breed fish and dolphins"
+    "description": "Fish Find Love - Breed fish and dolphins",
+    "min_format": 48,
+    "max_format": 200
   }
 }
