@@ -4,12 +4,12 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "items": ["minecraft:cod"]
+          "items": ["minecraft:glow_berries"]
         }
       }
     }
   },
   "rewards": {
-    "function": "ffl:squid/on_cod_use"
+    "function": "ffl:squid/on_glow_berries_use"
   }
 }
