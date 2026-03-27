@@ -2,6 +2,10 @@
 
 A Minecraft Java Edition datapack that adds breeding mechanics for fish, dolphins, squids, and glow squids.
 
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-1bd96a?logo=modrinth)](https://modrinth.com/datapack/fish-find-love-fish-breeding)
+[![CurseForge](https://img.shields.io/badge/CurseForge-Download-f16436?logo=curseforge)](https://www.curseforge.com/minecraft/data-packs/fish-find-love-fish-breeding)
+[![Planet Minecraft](https://img.shields.io/badge/Planet%20Minecraft-Download-4caf50)](https://www.planetminecraft.com/data-pack/fish-find-love-fish-breeding-datapack/)
+
 ## Why This Datapack?
 
 In vanilla Minecraft, fish and squid cannot be bred like other animals. This datapack fills that gap with a kelp-based breeding system for all four vanilla fish species, vanilla-style love mode breeding for dolphins, and a drop-based breeding system for squids and glow squids.
