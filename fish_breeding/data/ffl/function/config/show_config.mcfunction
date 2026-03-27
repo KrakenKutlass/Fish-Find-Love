@@ -15,4 +15,6 @@ execute if score #squids_breed ffl.config matches 1 run tellraw @s [{"text":"Squ
 execute if score #squids_breed ffl.config matches 0 run tellraw @s [{"text":"Squid Breeding:   ","color":"white"},{"text":"[DISABLED]","color":"red","bold":true,"underlined":true,"click_event":{"action":"run_command","command":"/function ffl:config/toggle_squid_breeding"}}]
 
 tellraw @s {"text":"","color":"white"}
+tellraw @s [{"text":"[ENABLE ALL]","color":"green","bold":true,"underlined":true,"click_event":{"action":"run_command","command":"/function ffl:config/enable_all_breeding"}},{"text":"  ","color":"white"},{"text":"[DISABLE ALL]","color":"red","bold":true,"underlined":true,"click_event":{"action":"run_command","command":"/function ffl:config/disable_all_breeding"}}]
+tellraw @s {"text":"","color":"white"}
 tellraw @s {"text":"===================================","color":"gold"}
